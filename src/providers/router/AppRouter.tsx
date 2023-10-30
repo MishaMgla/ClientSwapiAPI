@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
 import { Suspense, lazy } from "react";
-import PeopleDetailsPage from "../../pages/PeopleDetailsPage";
 import { CircularProgress } from "@mui/material";
 
 const PeoplesPage = lazy(() => import("../../pages/PeoplesPage"));
 const FavoritesPage = lazy(() => import("../../pages/FavoritesPage"));
+const PeopleDetailsPage = lazy(() => import("../../pages/PeopleDetailsPage"));
 
 export const AppRouter = () => {
   return (

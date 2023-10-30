@@ -5,7 +5,7 @@ import {
   TextField,
 } from "@mui/material";
 import { useState, useCallback, useRef } from "react";
-import { debounce } from "lodash";
+import debounce from "lodash/debounce";
 import { useNavigate } from "react-router-dom";
 import { searchApi } from "../services/SearchApi";
 
